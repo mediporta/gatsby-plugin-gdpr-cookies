@@ -1,7 +1,7 @@
 {
   "name": "@mediporta/gatsby-plugin-gdpr-cookies",
   "description": "Gatsby plugin to add google analytics, google tag manager facebook pixel, tik tok pixel and hotjar in a gdpr form to your site. Consent coming soon.",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "author": "Andre Zimpel <andre@unknownbasics.com>",
   "bugs": {
     "url": "https://github.com/mediporta/gatsby-plugin-gdpr-cookies/issues"
@@ -68,6 +68,8 @@
   "files": [
     "index.js",
     "gatsby-browser.js",
+    "default-options.js",
+    "helper.js",
     "services",
     "index.d.ts",
     "README.md",
